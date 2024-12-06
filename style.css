@@ -66,6 +66,10 @@ p {
 	font-size: ;
 }
 
+.mealtime img:alt {
+	text align: center;
+}
+
 img {
   position: absolute;
   left: 33%; /* 화면 너비의 33% 위치 */
