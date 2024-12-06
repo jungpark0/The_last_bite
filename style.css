@@ -101,13 +101,14 @@ img {
 
   /* 이미지 크기 및 위치 조정 */
   .mealtime img {
-    height: 280px; /* 이미지 크기 축소 */
-    width: 280px;
+    height: 470px; /* 이미지 크기 축소 */
+    width: 470px;
     position: relative; /* absolute 해제 */
     left: 50%; /* 중앙 정렬 */
-    bottom: 20px; /* 위쪽으로 이동 */
+    bottom: 50px; /* 위쪽으로 이동 */
     transform: translateX(-50%); /* 가로 중앙 정렬 유지 */
     margin: 100px auto; /* 위아래 여백 추가 */
+    margin-bottom: 30px;
   }
 
   /* 문단 영역 조정 */
