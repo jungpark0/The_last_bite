@@ -80,12 +80,14 @@ img {
   .container {
     flex-direction: column; /* 가로 배치에서 세로 배치로 변경 */
     height: auto; /* 모바일에서는 전체 높이 고정 제거 */
-    overflow: auto; /* 스크롤 가능하도록 설정 */
+    overflow-y: auto; /* 스크롤 가능하도록 설정 */
   }
 
   /* 제목 영역의 여백 및 높이 조정 */
   .title {
     padding: 10px 15px;
+    width: 100%;
+    text-align: center;
   }
 
   .title p {
@@ -98,13 +100,13 @@ img {
 
   /* 이미지 크기 및 위치 조정 */
   .mealtime img {
-    height: 250px; /* 이미지 크기 축소 */
-    width: 250px;
+    height: 280px; /* 이미지 크기 축소 */
+    width: 280px;
     position: relative; /* absolute 해제 */
     left: 50%; /* 중앙 정렬 */
-    top: 0; /* 위쪽으로 이동 */
+    bottom: 100px; /* 위쪽으로 이동 */
     transform: translateX(-50%); /* 가로 중앙 정렬 유지 */
-    margin: 20px auto; /* 위아래 여백 추가 */
+    margin: 100px auto; /* 위아래 여백 추가 */
   }
 
   /* 문단 영역 조정 */
