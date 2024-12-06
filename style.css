@@ -113,7 +113,7 @@ img {
 
   /* 문단 영역 조정 */
   .paragraph {
-    width: 90%; /* 문단이 화면의 90% 차지 */
+    width: 95%; 
     margin: 10px auto; /* 중앙 정렬 */
     font-size: 16px; /* 텍스트 크기 축소 */
     padding: 10px 15px;
