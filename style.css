@@ -101,8 +101,8 @@ img {
 
   /* 이미지 크기 및 위치 조정 */
   .mealtime img {
-    height: 470px; /* 이미지 크기 축소 */
-    width: 470px;
+    height: 440px; /* 이미지 크기 축소 */
+    width: 440px;
     position: relative; /* absolute 해제 */
     left: 50%; /* 중앙 정렬 */
     bottom: 50px; /* 위쪽으로 이동 */
