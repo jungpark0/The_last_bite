@@ -14,7 +14,7 @@ body {
 	word-break: keep-all;
   letter-spacing: 0.2px;
 	word-spacing: -0.5px;
-	line-height: 1.7;
+	line-height: 1.75;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -80,7 +80,7 @@ details {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body {
   	overflow-x: hidden;
   	overflow-y: auto;
